@@ -6,6 +6,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+/*STARTS INDEX*/
 .container{
     width: 75%;
     margin: 0 auto;
@@ -107,12 +108,153 @@ body{
     color: white;
     font-size: 17px;
     font-weight: 700;
+    transition: 500ms;
 }
 .right-footer a:hover{
     text-decoration: underline;
+    color: black;
+}
+@media (max-width: 1365px){
+    .image{
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .container{
+        width: 90%;
+    }
+    .left{
+        padding-left: 5px;
+    }
 }
 
 
+/*ENDS INDEX*/
+/*STARTS CONTACT*/
+.container-contact{
+    width: 75%;
+    margin: 0 auto;
+    padding: 30px 50px 10px 50px;
+    border: 1px solid #e1a701;
+}
+.container-contact span{
+    font-weight: 700;
+}
+.where{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.where span{
+    margin-bottom: 10px;
+}
+.where select{
+    width: 30%;
+}
+.illumination{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.illumination span{
+    margin-bottom: 20px;
+}
+.dishes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.dishes span{
+    margin-bottom: 20px;
+}
+.recomendation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.recomendation span{
+    margin-bottom: 20px;
+}
+.place{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.place input{
+    margin-left: 20px;
+}
+.place label{
+    margin-left: 5px;
+}
+.why{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.why span{
+    margin-bottom: 20px;
+}
+.why textarea{
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.data input{
+    width: 30%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.info label{
+    margin-top: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+.buttons button{
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #e1a701;
+    font-weight: 700;
+    font-size: 14px;
+    transition: 500ms;
+}
+.buttons button:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.buttons button:first-of-type{
+    background-color: #e1a701;
+    color: white;
+}
+.buttons button:active:first-of-type{
+    background-color: white;
+    color: #e1a701;
+}
+.buttons button:last-of-type{
+    background-color: white;
+    color: #e1a701;
+}
+.buttons button:active:last-of-type{
+    background-color: #e1a701;
+    color: white;
+}
 
 
 

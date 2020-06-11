@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Restaurante</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container-contact">
+            <div class="where">
+                <span>¿De donde sos?</span>
+                <select name="where" id="where">
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+            <div class="illumination">
+                <span>¿Que te parecio la iluminacion del ambiente?</span>
+                <div class="option">
+                    <input type="radio" id="acorde" name="illu" value="acorde">
+                    <label for="acorde">Muy acorde</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="buena" name="illu" value="buena">
+                    <label for="buena">Buena, pero podria mejorar</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="mala" name="illu" value="mala">
+                    <label for="mala">Mala</label>
+                </div>
+            </div>
+            <div class="dishes">
+                <span>¿Que tipo de plato fue el que mas te gusto?</span>
+                <div class="option">
+                    <input type="radio" id="entrada" name="dish" value="entrada">
+                    <label for="entrada">Entrada</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="principal" name="dish" value="principal">
+                    <label for="principal">Plato principal</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="postre" name="dish" value="postre">
+                    <label for="postre">Postre</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="otros" name="dish" value="otros">
+                    <label for="otros">Otros</label>
+                </div>
+            </div>
+            <div class="recomendation">
+                <span>¿Recomendarias el lugar?</span>
+                <div class="place">
+                    <input type="radio" id="si" name="dish" value="si">
+                    <label for="si">Si</label>
+                    <input type="radio" id="no" name="dish" value="no">
+                    <label for="no">No</label>
+                </div>
+            </div>
+            <div class="why">
+                <span>¿Por que?</span>
+                <textarea name="why" id="why" cols="10" rows="10" placeholder="Inserte su texto aqui"></textarea>
+            </div>
+            <div class="data">
+                <span>Dejanos tus datos y nos pondreos en contacto con vos</span>
+                <div class="info">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Inserte su nombre">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Inserte su email">
+                </div>
+            </div>
+            <div class="buttons">
+                <button>Enviar</button>
+                <button>Resetear</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
